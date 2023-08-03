@@ -242,13 +242,13 @@ function efectos(function_Convert, text_Textarea, text_Span){
     titleTag.innerHTML = text_Span; // Texto Titulo del Span.
     btn_encriptt.style.color = "#063e46";
     btn_encriptt.style.textAlign = "center";
-    btn_encriptt.style.lineHeight = "280px";
+    btn_encriptt.style.lineHeight = "550%";
     btn_encriptt.style.fontFamily = "Monaco";
     btn_encriptt.style.fontWeight = "bold";
-    btn_encriptt.style.fontSize = "36px";
+    btn_encriptt.style.fontSize = "200%";
     titleTag.style.display = "initial";
-    titleTag.style.lineHeight = "65px";
-    titleTag.style.fontSize = '32px';
+    titleTag.style.lineHeight = "195%";
+    // titleTag.style.fontSize = '32px';
 
     return 0;
 };
@@ -293,9 +293,9 @@ function efectos_copy_Sin_MayAcentos(){
     plaHolder.style.lineHeight = '35px';
     plaHolder.style.textAlign = 'start';
     plaHolder.style.fontFamily= "sans-serif";
-    plaHolder.style.fontWeight= "50px";
-    plaHolder.style.fontSize = "30px";
-    plaHolder.style.color = "#052051";
+    plaHolder.style.fontWeight= "30%";
+    plaHolder.style.fontSize = "120%";
+    plaHolder.style.color = "#071631";
 
     return 0;
 };
