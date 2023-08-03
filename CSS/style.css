@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, section{
+    width: 1440px;
+    height: 1024px;
+    /* background-color: #bbe0f4; */
+    /* box-shadow: inset 0px 8px 20px rgba(14, 22, 90, 0.5); */
+}
+
+.logoAlura{
+    position: absolute;
+    height: 48px;
+    width: 120px;
+    top: 40px;
+    left: 40px;
+    background-image: url("/Encriptador_de_texto/imagenes/Logo-1.png");
+    background-repeat: no-repeat;
+}
+
+/* El grupo div del form textarea*/
+.box1{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 900px;
+    height: 1024px;
+    /* background-color: #2c0c50; */
+}
+
+.box1_Form{
+    position: relative;
+    padding: 0;
+    height: 1024px;
+    /* background-color: #4e0c50; */
+}
+
+/* Este es el Label del textarea*/
+.titleTextarea{
+    position: absolute;
+    width: 668px;
+    height: 55px;
+    top: 217px;
+    left: 180px;
+    align-items: center;
+    padding-top: 0.5em;
+
+    background: var(--background_titleTextarea);
+    box-shadow: var(--box_shadow_titleTextarea);
+    border: 2px solid #2c0c50;
+    border-radius: 10px 10px 23px 23px;
+    text-align: center;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: bold;
+    /* or 48px */
+}
+
+/* Este es el cuadro de texto textarea*/
+.textarea_Convert{
+    position: absolute;
+    width: 681px;
+    height: 329px;
+    top: 366px;
+    left: 180px;
+
+    border-radius: 10px 10px 23px 23px;
+    border: var(--border_textarea_Convert);
+    /* background: #F0F3E8; */
+    background-color: var(--background_textarea_Convert_color);
+    box-shadow:  var(--box_shadow_titleTextarea);
+    resize: none; /* No se podrá expandir su tamaño */
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    /* or 48px */
+
+    /* Dark blue/dark-blue-500 */
+    color: var(--color__Convert_color);
+}
+
+
+/* Alinear el texto del textarea */
+.textarea_Convert::-webkit-input-placeholder{
+    text-align: center;
+    align-items: center;
+    line-height: 280px;
+    margin-left: 25px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(62, 66, 72, 0.6);
+}
+
+.efectoLogoExclamacion{
+    background: rgba(220, 20, 60, 1);
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 780px;
+    left: 180px;
+    border-radius: 36px 36px 36px 36px;
+    /* transition: 0.9s; */
+    animation-name: efecto;
+    animation-duration: 2s;
+    animation-iteration-count: 220;
+}
+
+@keyframes efecto{
+    from {background: rgba(220, 20, 60, 0);}
+    to {background: rgba(220, 20, 60, 1);}
+}
+
+/* Logo de exclamación */
+.LogoExclamacion{
+    position: relative;
+    border-radius: 36px 36px 36px 36px;
+    opacity: 0.930;
+    /* background-color: rgba(17, 61, 85, 0.932); */
+}
+
+/* Texto al aldo del logo de exclamación */
+.titleBotones{
+    position: absolute;
+    top: 780px;
+    left: 180px;
+    margin-left: 40px;
+    margin-top: 8px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--color_titleBotones);
+}
+
+/* Boton para Encriptar */
+.botonEncriptar{
+    position: absolute;
+    top: 820px;
+    left: 180px;
+    width: 328px;
+    height: 72px;
+    margin: 34px 0 0 0;
+
+    background: var(--background_botonEncriptar);
+    border: var(--border_botonEncriptar);
+    border-radius: 24px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    color: var(--color_botonEncriptar);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Estilo dinámico del Boton Encriptar */
+.botonEncriptar:hover{
+    background: var(--background_botonEncriptar_hover);
+    transform: scale(1.1);
+}
+
+/* Boton Desencriptar */
+.botonDesencriptar{
+    position: absolute;
+    top: 820px;
+    left: 532px;
+    width: 328px;
+    height: 72px;
+    margin: 34px 0 0 0;
+
+    background: var(--background_botonEncriptar);
+    border: var(--border_botonEncriptar);
+    border-radius: 24px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    color: var(--color_botonEncriptar);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Estilo dinámico del Boton Desencriptar */
+.botonDesencriptar:hover{
+    background: var(--background_botonEncriptar_hover);
+    transform: scale(1.1);
+}
+
+footer{
+    position: absolute;
+    width: 700px;
+    height: 34px;
+    left: 180px;
+    top: 954px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+
+/* ********************----------------------------------------------******************** */
+
+/* El grupo div del form span*/
+.box2{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 48px;
+    left: 900px;
+    width: 540px;
+    height: 976px;
+    /* background: #052051; */
+}
+
+.box2_Form{
+    position: relative;
+    top: 0;
+    margin-top: 0;
+    width: 540px;
+    height: 976px;
+    /* background: #0b3c42; */
+}
+
+.span_Copy{
+    position: absolute;
+    top: 0;
+    width: 540px;
+    height: 976px;
+    /* background: chartreuse; */
+}
+
+/* Etiqueta Span elemento hijo de la etiqueta Div */
+.span__Copy{
+    position: absolute;
+    width: 400px;
+    height: 894px;
+    top: 0;
+    right: 40px;
+    bottom: 40px;
+    padding: 60px 20px 0 45px;
+     
+    background: var(--background_textarea_Convert_color);
+    border: var(--border_textarea_Convert);
+    box-shadow: var(--box_shadow_titleTextarea);
+    border-radius: 32px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    /* Gray/gray-400 */
+    color: var(--color__Convert_color);
+}
+
+
+/* Titulo del texto Span */
+.box2__FormDes{
+    position: absolute;
+    width: 400px;
+    height: 44px;
+    top: 0;
+    right: 80px;
+    bottom: 40px;
+    /* background: deeppink; */
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: var(--color__Convert_color);
+}
+
+/* div del grupo muneco */
+.div_imagenes__grupo{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    right: 102px;
+    top: 283px;
+    background: var(--background_div_imagenes__grupo);
+}
+
+/* Parrafo desencriptar 1 */
+.message1_Copy{
+    position: relative;
+    width: 337px;
+    height: 62px;
+    top: 0;
+    text-align: center;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    /* or 31px */
+    
+    /* Gray/gray-500 */
+    color: var(--color_message1_Copy);
+}
+
+/* Parrafo desencriptar 2 */
+.message2_Copy{
+    position: relative;
+    width: 337px;
+    height: 62px;
+    top: 0;
+    text-align: center;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    align-self: stretch;
+    /* or 30px */
+
+    /* Gray/gray-400 */
+    color: var(--color_message2_Copy);
+}
+
+/* Boton Copiar Desencriptar */
+.botonCopiar{
+    position: absolute;
+    width: 328px;
+    height: 72px;
+    right: 106px;
+    top: 865px;
+
+    box-sizing: border-box;
+    background: var(--background_botonCopiar);
+    border: var(--border_botonEncriptar);
+    box-shadow: var(--box_shadow_botonCopiar);
+    border-radius: 24px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    color: var(--color_botonCopiar);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Estilo dinámico para Boton Copiar */
+.botonCopiar:hover{
+    background: var(--background_botonEncriptar_hover);
+    transform: scale(1.1);
+}
+
+
+/* ********************----------------------------------------------******************** */
+/* Codigos Responsivos */

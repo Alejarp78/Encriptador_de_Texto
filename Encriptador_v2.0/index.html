@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" type="text/javascript" language="javascript"></script>
+    <script src="index.js" type="module"></script>
+    
+    <title>EncriptadorV2.0</title>
+</head>
+<body>
+    <header>
+        <div class="logoAlura"></div>
+    </header>
+    <main>
+        <div class="box1">
+            <form action="">
+                <label for="text_Convert" class="text__Label1">Ingrese el texto en el espacio de abajo</label>
+                <textarea name="textPpal" id="text_Convert" class="text__Convert" cols="80" rows="80" required placeholder="    Texto aquí" pattern="[a-z0-9]"></textarea>
+                <label for="encrip_descencrip" class="text__Label2">Sólo letras en minúsculas y sin acento</label>
+                <img src="./imagenes/Exclamacion.png" alt="Importante" class="logoExclamacion">
+                <input id="encrip_descencrip" name="Encriptar" type="button" class="encriptar" value="Encriptar" onclick="eject_encript();">
+                <input id="encrip_descencript" class="desencriptar" name="desencriptar" type="button" value="Desencriptar" onclick="eject_desencript();">
+            </form>
+        </div>
+        <div class="box2">
+            <form action="">
+                <span class="text__label3" id="text_label3" contenteditable="true"></span>
+                <img src="./imagenes/Mu+¦eco-1.png" alt="Muñeco buscando información" class="logo__Muneco" id="logo_muneco" >
+                <p class="mess1" id="mess1"><strong>Ningún mensaje fue <br>encontrado</strong></p>
+                <p class="mess2" id="mess2">Ingresa el texto que desees encriptar o desencriptar</p>
+                <input class="text__copiar" id="text_copiar" name="copiar" type="button" value="Copiar" onclick="buttonCopy();">
+            </form>
+        </div>
+    </main>
+    <footer class="copyright">
+        Desafío N° 1 propuesto por <strong>Alura Latam</strong> , <strong>"Encriptador"</strong> desarrollado por <strong><i>Jhozmer Ramírez</i> - Dic 2022</strong>
+    </footer>
+</body>
+</html>

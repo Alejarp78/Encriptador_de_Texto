@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style-boton_dark.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="Scripts/script.js" type="text/javascript"></script>
+    <script src="Scripts/script-modeDark.js" type="text/javascript"></script>
+    <title>Encriptador_Texto</title>
+</head>
+<body id="cuerpo" >
+    <header></header>
+    <!-- Código utilizado para el Boton del Modo oscuro---------------------------------------************ -->
+    <div class="container">
+        <!-- Codigo utilizado para cambiar el color de la base del boton deslizante -->
+        <div class="slider">
+            <div class="rail-base" id="rail-base_down"></div>
+            <div class="rail-base_up" id="rail-base__up"></div>
+        </div>
+        <div class="check">
+            <!-- label + input = accion del boton deslizante -->
+            <label for="check_input1" class="rail_boton" id="escuchar"> 
+                <input type="checkbox" name="dark_ligth" id="check_input1" class="input_Sp" checked onclick="dark_ligthBoton();">
+                <span class="circle-dark_right" id="circle-dark__right"></span>
+                <!-- Boton deslizante -->
+                <span class="circle-dark_left" id="circle-dark__left"><i class="fa-solid fa-circle-half-stroke"></i></span>
+                <!-- Icono del sol -->
+                <span class="indicate_sun" id="indicate__sun" ><i class="fa-regular fa-sun"></i></span>
+                <!-- Icono de la luna -->
+                <span class="indicate_moon" id="indicate__moon"><i class="fa-regular fa-moon"></i></span>
+            </label>
+        </div> 
+        <p>Modo <br> Oscuro</p>
+    </div>
+    <!-- Código para el cuadro del texto que se desea encriptar y de los botones encriptar/desencriptar -->
+    <main>
+        <section>
+            <div class="logoAlura"></div>
+            <div class="box1">
+                <form action="" class="box1_Form">
+                    <label for="textEncript" class="titleTextarea">Ingrese el texto en el recuadro de abajo</label>
+                    <textarea name="textEncript" id="textoCovertir" cols="30" rows="10" class="textarea_Convert" placeholder="Texto aquí"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Texto aquí'" title="En mi repositorio de Github está la explicación (Alejarp78)"></textarea> <!--  Onfocus y Onblur: Código para que al hacer click en el Texarea parpadee la barra de texto y limpie la pantalla. -->
+                    <div class="efectoLogoExclamacion">
+                        <img src="./imagenes/Exclamacion.png" alt="Logo_Exclamación" class="LogoExclamacion">
+                    </div>
+                    <div class="grupo_botones">
+                        <label for="botones" class="titleBotones">Sólo letras en minúsculas y sin acentos.</label>
+                        <input name="botones" type="button" value="Encriptar" class="botonEncriptar" onclick="funcBotonEncriptar();">
+                        <input type="button" value="Desencriptar" class="botonDesencriptar" onclick="funcBotonDesencriptar();">
+                    </div>
+                </form> 
+            </div>
+            <!-- Cuadro para desencriptar el texto -->
+            <div class="box2">
+                <form action="" class="box2_Form">
+                    <div class="span_Copy">
+                        <span class="span__Copy" id="textoCopiar" contenteditable="true"></span>
+                        <h1 class="box2__FormDes" id="box2_FormDes"></h1>
+                    </div>
+                    <!-- Esta es la caja con el muneco y los parrafos (div): -->
+                    <div id="div_imagenes_grupo" class="div_imagenes__grupo">
+                        <img src="./imagenes/Mu+¦eco-1.png" alt="Logo_Muneco" class="logoMuneco" >
+                        <p id="box__imgId3" class="message1_Copy"><strong>Ningún mensaje fue <br>encontrado</strong></p>
+                        <p id="box__imgId4" class="message2_Copy">Ingresa el texto que desees <br> encriptar o desencriptar</p>
+                    </div>
+                    <input class="botonCopiar" id="boton_Copiar" type="button" value="Copiar / Reset" onclick="buttonCopy();" checked>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <strong>Desafío N° 1 </strong>propuesto por <strong>Alura Latam</strong> , <strong>Proyecto: "Encriptador de Texto" <br>
+        </strong> Desarrollado por: <strong><i>Jhozmer A. Ramírez P.</i> - Jun 2023 - <i>ORACLE-Next Education.</i> </strong>
+    </footer>
+</body>
+</html>

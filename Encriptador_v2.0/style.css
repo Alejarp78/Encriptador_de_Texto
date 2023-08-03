@@ -1,0 +1,899 @@
+body{
+    width: 100%;
+    height: 1024px;
+    background-color: #BBE0F4;
+    box-shadow: inset 0px 8px 20px rgba(14, 22, 90, 0.5);
+}
+
+.logoAlura{
+    height: 130px;
+    width: 120px;
+    background-image: url("./imagenes/Logo-1.png");
+    background-repeat: no-repeat;
+    background-position: 0px 40px;
+    padding: 40px;
+}
+
+.box1{
+    position:absolute;
+    width: 700px;
+    height: 690px;
+    left: 110px;
+    top: 217px;
+    margin: 0 0 709px 0;
+}
+
+.text__Label1{
+    width: 681px;
+    height: 20px;
+
+    background: #e0dec3;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000000;
+    border-radius: 10px 10px 23px 23px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 20px;
+    /* or 48px */
+
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 25px 0;
+
+    /* Dark blue/dark-blue-500 */
+
+    color: #000000;
+}
+
+.text__Convert{
+    width: 681px;
+    height: 329px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 23px 23px; 
+    margin: 72px 0 308px 0;
+    display: inline-block;
+    min-width: 5px;
+   
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
+
+    text-align:left;
+    align-self: stretch;
+
+    /* Dark blue/dark-blue-500 */
+
+    color: #052051;
+}
+
+.text__Label2{
+    position: absolute;
+    align-items: center;
+    top: 580px;
+    height: 150px;
+    left: 0;
+    right: 0;
+    padding: 23px 15px 0 45px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+
+    color: #4a5057;
+}
+
+.logoExclamacion{
+    position: absolute;
+    left: 0;
+    top: 580px;
+    padding: 17px 0 5px 0;
+}
+
+.encriptar{
+    position: absolute;
+    top: 630px;
+    left: 5px;
+    width: 328px;
+    height: 72px;
+    margin: 34px 0 0 0;
+
+    background: #052051;
+    border: 1px solid #010b1d;
+    border-radius: 24px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.encriptar:hover{
+    background: rgb(98, 111, 233);
+    transform: scale(1.1);
+}
+
+.desencriptar{
+    position: absolute;
+    top: 630px;
+    left: 352px;
+    width: 328px;
+    height: 72px;
+    margin: 34px 0 0 0;
+
+    background: #052051;
+    border: 1px solid #010b1d;
+    border-radius: 24px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.desencriptar:hover{
+    background: rgb(98, 111, 233);
+    transform: scale(1.1);
+}
+
+.box2{
+    position: absolute;
+    width: 405px;
+    height: 950px;
+    left: 880px;
+    top: 40px;
+    padding: 0 0 0 15px;
+    align-items: center;
+
+    background: #EDF2E9;
+    border: 1px solid #052051;
+    box-shadow: 0px 18px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+}
+
+.text__label3{
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    top: 15px;
+    padding: 0 20px 0 20px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    /* Gray/gray-400 */
+
+    color: #052051;
+}
+
+.logo__Muneco{
+    margin: 283px 0 0 32px;
+}
+
+.mess1{
+    position: absolute;
+    top: 622px;
+    width: 337px;
+    height: 62px;
+    margin: 0px 33px 0 30px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    /* or 31px */
+    
+    text-align: center;
+    
+    /* Gray/gray-500 */
+    
+    color: #343A40;
+}
+
+.mess2{
+    position: absolute;
+    top: 680px;
+    width: 337px;
+    height: 60px;
+    margin: 25px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    align-self: stretch;
+    /* or 30px */
+
+    text-align: center;
+    align-items: center;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+}
+
+.text__copiar{
+    position: absolute;
+    width: 336px;
+    height: 72px;
+    left: 40px;
+    top: 840px;
+
+    box-sizing: border-box;
+    background: #D8DFE8;
+    border: 1px solid #0E0D35;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    color: rgb(11, 4, 51);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+.text__copiar:hover{
+    background: rgb(98, 111, 233);
+    transform: scale(1.1);
+}
+
+.copyright{
+    position: absolute;
+    width: 700px;
+    height: 32px;
+    left: 100px;
+    top: 990px;
+}
+
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+
+    body{
+        width: 768px;
+        height: 1715px;
+    }
+
+    .box1{
+        position:absolute;
+        width: 688px;
+        height: 48px;
+        left: 35px;
+        top: 152px;
+        margin: 0 0 709px 0;
+    }
+
+    .text__Label1{
+        width: 688px;
+        height: 48px;
+        margin: 20px 0 0 6px;
+        padding: 28px 0 0 0;
+        font-size: 32px;
+    }
+
+    .text__Convert{
+        width: 688px;
+        height: 360px;
+        margin: 40px 0 0 6px;
+    }
+    
+    .text__Label2{
+        width: 688px;
+        top: 540px;
+        height: 18px;
+        left: 0px;
+        font-size: 20px;
+    }
+
+    .logoExclamacion{
+        position: absolute;
+        left: 0;
+        top: 540px;
+        padding: 17px 0 5px 0;
+    }
+
+    .encriptar{
+        position: absolute;
+        top: 580px;
+        left: 7px;
+        width: 343px;
+        height: 67px;
+    }
+
+    .desencriptar{
+        position: absolute;
+        top: 580px;
+        left: 7px;
+        width: 343px;
+        height: 67px;
+        margin: 34px 0 0 358px;
+    }
+
+    .box2 {
+        position: absolute;
+        width: 678px;
+        height: 760px;
+        left: 40px;
+        top: 880px;
+        margin: 0 0 42px 0;
+    }
+
+    .text__label3{
+        position: absolute;
+        width: 628px;
+        height: 650px;
+        left: 12px;
+        top: 5px;
+    }
+
+    .logo__Muneco{
+        margin: 120px 0 0 140px;
+    }
+    
+    .mess1{
+        position: absolute;
+        top: 470px;
+        width: 608px;
+        height: 16px;
+        margin: -20px 5px 0 12px;
+        font-size: 34px;
+    }
+    
+    .mess2{
+        position: absolute;
+        top: 550px;
+        width: 608px;
+        height: 16px;
+        margin: -20px 5px 0 12px;
+        font-size: 34px;
+    }
+    
+    .text__copiar{
+        width: 668px;
+        height: 67px;
+        left: 10px;
+        top: 660px;
+    }
+
+    .copyright{
+        width: 688px;
+        height: 28px;
+        left: 20px;
+        top: 1670px;
+        font-size: 16px;
+        margin: 0 0 0 20px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    body{
+        width: 375px;
+        height: 1715px;
+    }
+
+    .box1{
+        position:absolute;
+        width: 343px;
+        height: 48px;
+        left: 16px;
+        top: 152px;
+        margin: 0 0 9px 0;
+    }
+
+    .encriptar{
+        position: absolute;
+        top: 485px;
+        left: 7px;
+        width: 343px;
+        height: 67px;
+    }
+
+    .desencriptar{
+        position: absolute;
+        top: 576px;
+        left: 7px;
+        width: 343px;
+        height: 67px;
+        margin: 28px 0 0 0;
+    }
+    
+    .text__Convert{
+        width: 340px;
+        height: 290px;
+        margin: 40px 0 0 6px;
+    }
+
+    .text__Label2{
+        width: 300px;
+        top: 440px;
+        height: 18px;
+        left: 0px;
+        font-size: 16px;
+    }
+    .logoExclamacion{
+        position: absolute;
+        left: 0;
+        top: 435px;
+        padding: 17px 0 5px 0;
+    }
+
+    .text__Label1{
+        width: 340px;
+        height: 20px;
+        margin: 20px 0 0 6px;
+        font-size: 17px;
+    }
+
+    .box2 {
+        position: absolute;
+        width: 332px;
+        height: 760px;
+        left: 20px;
+        top: 880px;
+        margin: 0 0 42px 0;
+    }
+
+    .text__label3{
+        position: absolute;
+        width: 285px;
+        height: 650px;
+        left: 15px;
+        top: 5px;
+    }
+
+    .logo__Muneco{
+        margin: 140px 0 0 -6px;
+    }
+    
+    .mess1{
+        position: absolute;
+        top: 470px;
+        width: 332px;
+        height: 16px;
+        margin: 0px 5px 0 -6px;
+        font-size: 24px;
+    }
+    
+    .mess2{
+        position: absolute;
+        top: 550px;
+        width: 332px;
+        height: 16px;
+        margin: 0px 5px 0 -6px;
+        font-size: 24px;
+    }
+    
+    .text__copiar{
+        width: 336px;
+        height: 67px;
+        left: 5px;
+        top: 660px;
+    }
+
+    .copyright{
+        width: 343px;
+        height: 16px;
+        left: 16px;
+        top: 1670px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+
+    body{
+        width: 768px;
+        height: 1715px;
+    }
+
+    .box1{
+        position:absolute;
+        width: 688px;
+        height: 48px;
+        left: 35px;
+        top: 152px;
+        margin: 0 0 709px 0;
+    }
+
+    .text__Label1{
+        width: 688px;
+        height: 48px;
+        margin: 20px 0 0 6px;
+        padding: 28px 0 0 0;
+        font-size: 32px;
+    }
+
+    .text__Convert{
+        width: 688px;
+        height: 360px;
+        margin: 40px 0 0 6px;
+    }
+    
+    .text__Label2{
+        width: 688px;
+        top: 540px;
+        height: 18px;
+        left: 0px;
+        font-size: 20px;
+    }
+
+    .logoExclamacion{
+        position: absolute;
+        left: 0;
+        top: 540px;
+        padding: 17px 0 5px 0;
+    }
+
+    .encriptar{
+        position: absolute;
+        top: 580px;
+        left: 7px;
+        width: 343px;
+        height: 67px;
+    }
+
+    .desencriptar{
+        position: absolute;
+        top: 580px;
+        left: 7px;
+        width: 343px;
+        height: 67px;
+        margin: 34px 0 0 358px;
+    }
+
+    .box2 {
+        position: absolute;
+        width: 678px;
+        height: 760px;
+        left: 40px;
+        top: 880px;
+        margin: 0 0 42px 0;
+    }
+
+    .text__label3{
+        position: absolute;
+        width: 628px;
+        height: 650px;
+        left: 12px;
+        top: 5px;
+    }
+
+    .logo__Muneco{
+        margin: 120px 0 0 140px;
+    }
+    
+    .mess1{
+        position: absolute;
+        top: 470px;
+        width: 608px;
+        height: 16px;
+        margin: -20px 5px 0 12px;
+        font-size: 34px;
+    }
+    
+    .mess2{
+        position: absolute;
+        top: 550px;
+        width: 608px;
+        height: 16px;
+        margin: -20px 5px 0 12px;
+        font-size: 34px;
+    }
+    
+    .text__copiar{
+        width: 668px;
+        height: 67px;
+        left: 10px;
+        top: 660px;
+    }
+
+    .copyright{
+        width: 688px;
+        height: 28px;
+        left: 20px;
+        top: 1670px;
+        font-size: 16px;
+        margin: 0 0 0 20px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1020px) {
+    body{
+        width: 1024px;
+        height: 1715px;
+    }
+
+    .box1{
+        position:absolute;
+        width: 944px;
+        height: 48px;
+        left: 40px;
+        top: 152px;
+        margin: 0 0 709px 0;
+    }
+
+    .text__Label1{
+        width: 938px;
+        height: 48px;
+        margin: 20px 0 0 6px;
+        padding: 28px 0 0 0;
+        font-size: 39px;
+    }
+
+    .text__Convert{
+        width: 938px;
+        height: 360px;
+        margin: 40px 0 0 6px;
+    }
+    
+    .text__Label2{
+        width: 938px;
+        top: 540px;
+        height: 18px;
+        left: 0px;
+        font-size: 26px;
+    }
+
+    .logoExclamacion{
+        position: absolute;
+        left: 0;
+        top: 540px;
+        padding: 17px 0 5px 0;
+    }
+
+    .encriptar{
+        position: absolute;
+        top: 580px;
+        left: 7px;
+        width: 450px;
+        height: 67px;
+    }
+
+    .desencriptar{
+        position: absolute;
+        top: 580px;
+        left: 7px;
+        width: 450px;
+        height: 67px;
+        margin: 34px 0 0 480px;
+    }
+
+    .box2 {
+        position: absolute;
+        width: 938px;
+        height: 760px;
+        left: 40px;
+        top: 880px;
+        margin: 0 0 42px 0;
+    }
+
+    .text__label3{
+        position: absolute;
+        width: 880px;
+        height: 650px;
+        left: 16px;
+        top: 5px;
+    }
+
+    .logo__Muneco{
+        margin: 120px 0 0 240px;
+    }
+    
+    .mess1{
+        position: absolute;
+        top: 470px;
+        width: 880px;
+        height: 16px;
+        margin: -38px 5px 0 12px;
+        font-size: 38px;
+    }
+    
+    .mess2{
+        position: absolute;
+        top: 550px;
+        width: 680px;
+        height: 16px;
+        margin: -20px 5px 0 102px;
+        font-size: 38px;
+    }
+    
+    .text__copiar{
+        width: 860px;
+        height: 67px;
+        left: 42px;
+        top: 660px;
+    }
+
+    .copyright{
+        width: 988px;
+        height: 28px;
+        left: 22px;
+        top: 1670px;
+        font-size: 22px;
+        margin: 0 0 0 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

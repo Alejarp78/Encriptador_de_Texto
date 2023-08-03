@@ -1,0 +1,300 @@
+[data-theme="light"]{
+    --background_body: rgb(187, 224, 244);
+    --box_shadow_body: inset 0px 8px 20px rgba(14, 22, 90, 0.5);
+    --background_color_rail-base: #1d0b50;
+    --background_color_rail-base_up: #f3ecec;
+    --background_color_rail-base_up_new: #312b2b;
+    --background_color_rail-base_up_newdark: #f3ecec;
+    --background_color_rail_boton: none;
+    --background_color_circle-dark_left: linear-gradient(#d6d5d5 0%, #6e6464);
+    --background_color_circle-dark_right:  linear-gradient(#fff 55%, #635a5a);
+    --background_boton: #ffffffcc;
+    --background_titleTextarea: #e0dec3;
+    --background_textarea_Convert_color: rgb(240, 243, 232);
+    --background_botonEncriptar: #052051;
+    --background_div_imagenes__grupo: rgba(192, 194, 186, 0.015);
+    --background_botonCopiar: #a3a5a8;
+    --box_shadow_titleTextarea: 20px 8px 32px rgba(52, 5, 58, 0.25);
+    --box_shadow_botonCopiar:  0px 4px 16px rgba(0, 0, 0, 0.25);
+    --border_textarea_Convert:  2px solid #2c0c50;
+    --border_botonEncriptar:  1px solid #010b1d;
+    --background_botonEncriptar_hover:  rgb(98, 111, 233);
+    --color_p:  #0d0425; 
+    --color__Convert_color: #071631;
+    --color_titleBotones: #4a5057;
+    --color_botonEncriptar: #fff;
+    --color_message1_Copy: #343A40;
+    --color_message2_Copy: #495057;
+    --color_botonCopiar: rgb(11, 4, 51);
+    --text_body: #0d0425;
+}
+
+[data-theme="dark"]{
+    --background_body: rgba(2, 6, 26, 0.953);
+    --box_shadow_body: inset 0px 8px 20px rgba(174, 178, 212, 0.502);
+    --background_color_rail-base: #1d0b50;
+    --background_color_rail-base_up: #f3ececc0;
+    --background_color_rail-base_up_new: #312b2b;
+    --background_color_rail-base_up_newdark: #312b2b;
+    --background_color_rail_boton: none;
+    --background_color_circle-dark_left: linear-gradient(#d6d5d5b6 0%, #6e6464);
+    --background_color_circle-dark_right:  linear-gradient(#d6d5d5b6 55%, #635a5a);
+    --background_boton: #000;
+    --background_titleTextarea: #504f42;
+    --background_textarea_Convert_color: rgb(134, 136, 128);
+    --background_botonEncriptar: #051533;
+    --background_botonEncriptar_hover:  rgb(18, 27, 114);
+    --background_div_imagenes__grupo:rgba(134, 136, 128, 0.045);
+    --background_botonCopiar:  #051533;
+    --box_shadow_titleTextarea: 20px 8px 32px rgba(131, 40, 143, 0.25);
+    --box_shadow_botonCopiar: 20px 8px 32px rgba(131, 40, 143, 0.25);
+    --border_textarea_Convert:  2px solid rgba(131, 40, 143, 0.25);
+    --border_botonEncriptar:  1px solid rgba(131, 40, 143, 0.25);
+    --color_p:  #d6d5d5e1;
+    --color__Convert_color: #060d2ef3;
+    --color_titleBotones: #4a5057;
+    --color_botonEncriptar: #868880;
+    --color_message1_Copy: #0c223b;
+    --color_message2_Copy: #0f2946;
+    --color_botonCopiar: #868880;
+    --text_body: #868880;
+}
+
+body{
+    background-color: var(--background_body);
+    box-shadow: var(--box_shadow_body);
+    color: var(--text_body);
+}
+
+.container{
+    position: absolute;
+    display: inline-block;
+    width: 280px;
+    height: 26px;
+    align-content: center;
+    top: 11px;
+    left: 1080px;
+    /* background-color: #02031b; */
+}
+
+.slider, .check {
+    position: absolute;
+    display: inline-block;
+    width: 250px;
+    height: 26px;
+    align-content: center;
+    top: 0;
+    left: 100px;
+    /* background-color: #02031b; */
+}
+/* Este es el codigo de la base del boton deslizante */
+.rail-base, .rail-base_up{
+    position: absolute;
+    display: inline-block;
+    align-content: center;
+    border-radius: 36px;
+}
+
+.container .slider .rail-base{
+    top: 0;
+    width: 80px;
+    left: 60px;
+    height: 26px;
+    background-color: var(--background_color_rail-base);
+}
+
+.container .slider .rail-base_up{
+    top: 2px;
+    width: 76px;
+    left: 62px;    
+    height: 22px;
+    background-color: var(--background_color_rail-base_up);
+    transition: all 0.4s;
+}
+
+.container .slider .rail-base_up_new {
+    background-color: var(--background_color_rail-base_up_new);
+}
+
+.container .slider .rail-base_up_newDark {
+    background-color: var(--background_color_rail-base_up_newdark);
+}
+
+.container .check .rail_boton{
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: 26px;
+    align-content: center;
+    /* background-color: var(--background_color_rail_boton); */
+    /*rgba(174, 178, 212, 0.1)*/
+}
+
+.container .check .rail_boton #check_input1{
+    width: 10px;
+    height: 10px;
+    left: 0;
+    display: none;
+}
+
+/* Este es el codigo del boton deslizante */
+.container .check .rail_boton .circle-dark_left, .circle-dark_left_new{
+    position: absolute;
+    top: 2px;
+    left: 63px;
+    width: 24px;
+    height: 22px;
+    background: var(--background_color_circle-dark_left);
+    border-radius: 36px 0 0 36px;
+    transition: all 0.4s;
+}
+
+.container .check .rail_boton .circle-dark_left_newDark{
+    position: absolute;
+    top: 2px;
+    left: 93px;
+    width: 24px;
+    height: 22px;
+    background: var(--background_color_circle-dark_left);
+    border-radius: 36px 0 0 36px;
+    transition: all 0.4s;
+}
+
+.container .check .rail_boton .circle-dark_right, .circle-dark_right_new{
+    position: absolute;
+    top: 2px;
+    left: 83px;
+    width: 24px;
+    height: 22px;
+    background: var(--background_color_circle-dark_right);
+    border-radius: 0 36px 36px 0;
+    transition: all 0.4s;
+}
+
+.container .check .rail_boton .circle-dark_right_newDark{
+    position: absolute;
+    top: 2px;
+    left: 113px;
+    width: 24px;
+    height: 22px;
+    background: var(--background_color_circle-dark_right);
+    border-radius: 0 36px 36px 0;
+    transition: all 0.4s;
+}
+
+.indicate_sun, .indicate_moon{
+    position: absolute;
+    height: 26px;
+    margin-top: 3px;
+    font-size: 21px;
+    border-radius: 36px;
+}
+
+.container .check .rail_boton .indicate_moon{
+    width: 26px;
+    left: 12px;
+    display: inline-block;
+    color: #fff;
+    background-color:  rgba(2, 3, 20, 0.7);
+    box-shadow: 5px 0 20px rgba(88, 141, 177, 1);
+    text-align: center;
+    transition: 1s;
+}
+
+.container .check .rail_boton .indicate_moon_new{
+    width: 26px;
+    left: 12px;
+    display: inline-block;
+    color: rgba(174, 178, 212, 0.1);
+    background-color:  rgba(2, 3, 20, 0);
+    box-shadow: none;
+    text-align: center;
+    transition: 1s;
+}
+
+.container .check .rail_boton .indicate_sun{
+    left: 152px;
+    width: 14px;
+    display: inline-block;
+    color: rgba(174, 178, 212, 0.1);
+    box-shadow: none;
+    font-weight: bolder;
+    transition: 0.8s;
+}
+
+
+.container .check .rail_boton .indicate_sun_new{
+    left: 152px;
+    width: 14px;
+    display: inline-block;
+    color: rgba(245, 107, 15, 1);
+    box-shadow: 40px 0 32px rgba(243, 136, 14, 1);
+    font-weight: bolder;
+    transition: 0.8s;
+}
+
+
+
+.fa-solid{
+    font-size: 22px;
+    margin-left: 12px;
+}
+
+
+.container .check .rail_boton #check_input1:checked ~ *.circle-dark_left{
+    transform: translate(30px, 0%);
+    background: linear-gradient( #d1cfcfa2 0%, #0f0f0f 100%);
+}
+.container .check .rail_boton #check_input1:checked ~ *.circle-dark_right{
+    transform: translate(30px, 0%);
+    background: linear-gradient( #fff 25%, #555252 100%);
+}
+
+.container .check .rail_boton #check_input1:checked ~ *.circle-dark_left_newDark{
+    transform: translate(-30px, 0%);
+    background: linear-gradient( #6b708df3 0%, #0f0f0f 100%);
+}
+.container .check .rail_boton #check_input1:checked ~ *.circle-dark_right_newDark{
+    transform: translate(-30px, 0%);
+    background: linear-gradient( #7a6d92 25%, #030524 100%);
+}
+
+.container .check .rail_boton #check_input1:checked ~ *.indicate_sun{
+    color: rgba(245, 107, 15, 1);
+    box-shadow: 40px 0 32px rgba(243, 136, 14, 1);
+}
+
+.container .check .rail_boton #check_input1:checked ~ *.indicate_sun_new{
+    color: rgba(174, 178, 212, 0.1);
+    box-shadow: none;
+}
+
+.container .check .rail_boton #check_input1:checked ~ *.indicate_moon{
+    color:  rgba(174, 178, 212, 0.1);
+    background-color:  rgba(2, 3, 20, 0);
+    box-shadow: none;
+}
+
+.container .check .rail_boton #check_input1:checked ~ *.indicate_moon_new{
+    color: #fff;
+    background-color:  rgba(2, 3, 20, 0.7);
+    box-shadow: 5px 0 20px rgba(88, 141, 177, 1);
+}
+
+.container p{
+    position: absolute;
+    top: 0;
+    left: 46px;
+    width: 50px;
+    height: 26px;
+    align-content: center;
+    font-size: 13px;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color_p);
+    /* background-color: rgb(110, 100, 100); */
+}
+
