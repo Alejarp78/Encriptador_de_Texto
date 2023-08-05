@@ -242,12 +242,12 @@ function efectos(function_Convert, text_Textarea, text_Span){
     titleTag.innerHTML = text_Span; // Texto Titulo del Span.
     btn_encriptt.style.color = "#063e46";
     btn_encriptt.style.textAlign = "center";
-    btn_encriptt.style.lineHeight = "550%";
+    btn_encriptt.style.lineHeight = "780%";
     btn_encriptt.style.fontFamily = "Monaco";
     btn_encriptt.style.fontWeight = "bold";
-    btn_encriptt.style.fontSize = "200%";
+    btn_encriptt.style.fontSize = "210%";
     titleTag.style.display = "initial";
-    titleTag.style.lineHeight = "195%";
+    titleTag.style.lineHeight = "240%";
     // titleTag.style.fontSize = '32px';
 
     return 0;
@@ -294,7 +294,7 @@ function efectos_copy_Sin_MayAcentos(){
     plaHolder.style.textAlign = 'start';
     plaHolder.style.fontFamily= "sans-serif";
     plaHolder.style.fontWeight= "30%";
-    plaHolder.style.fontSize = "120%";
+    plaHolder.style.fontSize = "140%";
     plaHolder.style.color = "#071631";
 
     return 0;

@@ -291,9 +291,8 @@ body{
     width: 50px;
     height: 26px;
     align-content: center;
-    font-size: 13px;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: var(--color_p);
     /* background-color: rgb(110, 100, 100); */
@@ -305,9 +304,9 @@ body{
 @media only screen and (max-device-width: 376px) /*and (orientation: landscape)*/{
 
     .container{
-        width: 196px;
+        max-width: 196px;
         height: 19px;
-        top: 11px;
+        top: 21px;
         left: 148px;
         /* background-color: #02031b; */
     }
@@ -358,7 +357,7 @@ body{
         margin: 0;
         padding: 0;
         top: 1.4px;
-        left: 32px;
+        left: 33px;
         width: 16.8px;
         height: 15.4px;
         /* background: deeppink; */
@@ -366,7 +365,7 @@ body{
 
     .container .check .rail_boton .circle-dark_left_newDark{
         top: 1.4px;
-        left: 32px;
+        left: 50px;
         width: 16.8px;
         height: 15.4px;
     }
@@ -380,7 +379,7 @@ body{
     
     .container .check .rail_boton .circle-dark_right_newDark{
         top: 1.4px;
-        left: 55.1px;
+        left: 67px;
         width: 16.8px;
         height: 15.4px;
     }
@@ -416,7 +415,7 @@ body{
         margin: 0;
         padding: 0;
         height: 19px;
-        font-size: 17px;
+        font-size: 16px;
         margin-left: 10px;
         top: 0;
         bottom: 2px;
@@ -431,10 +430,10 @@ body{
     }
     
     .container .check .rail_boton #check_input1:checked ~ *.circle-dark_left_newDark{
-        transform: translate(-21px, 0%);
+        transform: translate(-18px, 0%);
     }
     .container .check .rail_boton #check_input1:checked ~ *.circle-dark_right_newDark{
-        transform: translate(-21px, 0%);
+        transform: translate(-18px, 0%);
     }
 
     .container p{
@@ -444,7 +443,7 @@ body{
         height: 26px;
         align-content: center;
         font-weight: bolder;
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -452,19 +451,19 @@ body{
 @media screen and (min-device-width: 376.02px) and (max-device-width: 768px) /*and (orientation: landscape)*/{
     
     .container{
-        width: 291px;
-        height: 28.30px;
-        top: 11px;
+        max-width: 291px;
+        height: 90px;
+        top: 30px;
         left: 420px;
         /* background-color: #02031b; */
     }
 
     .slider, .check {
-        width: 178.75px;
+        width: 220px;
         height: 26px;
         align-content: center;
         top: 0;
-        left: 104.27px; 
+        left: 70px; 
         /* background-color: #02031b; */
     }
 
@@ -487,7 +486,7 @@ body{
         margin: 0;
         padding: 0;
         top: 0;
-        left: 0;
+        left: 10px;
         width: 177.26px;
         height: 26.81px;
         align-content: center;
@@ -505,7 +504,7 @@ body{
         margin: 0;
         padding: 0;
         top: 2.4px;
-        left: 65.2px;
+        left: 56px;
         width: 25.03px;
         height: 22.94px;
         /* background: deeppink; */
@@ -513,21 +512,21 @@ body{
 
     .container .check .rail_boton .circle-dark_left_newDark{
         top: 2.4px;
-        left: 65.2px;
+        left: 86px;
         width: 25.03px;
         height: 22.94px;
     }
 
     .container .check .rail_boton .circle-dark_right, .circle-dark_right_new{
         top: 2.4px;
-        left: 87.5px;
+        left: 77.5px;
         width: 25.03px;
         height: 22.94px;
     }
     
     .container .check .rail_boton .circle-dark_right_newDark{
         top: 2.4px;
-        left: 87.5px;
+        left: 107.5px;
         width: 25.03px;
         height: 22.94px;
     }
@@ -540,22 +539,22 @@ body{
     
     .container .check .rail_boton .indicate_moon{
         height: 27.11px;
-        left: 12.51px;
+        left: 15px;
     }
     
     .container .check .rail_boton .indicate_moon_new{
         height: 27.11px;
-        left: 12.51px;
+        left: 15px;
     }
     
     .container .check .rail_boton .indicate_sun{
-        left: 158.49px;
+        left: 145px;
         width: 14.60px;
     }
     
     
     .container .check .rail_boton .indicate_sun_new{
-        left: 158.49px;
+        left: 145px;
         width: 14.60px;
     }
     
@@ -564,7 +563,7 @@ body{
         padding: 0;
         height: 26.81px;
         font-size: 23.5px;
-        margin-left: 11.17px;
+        margin-left: 12px;
         top: 0;
         /* background: #0c223b; */
     }
@@ -584,13 +583,14 @@ body{
     }
 
     .container p{
+        position: absolute;
         top: 0;
-        left: 47.96px;
-        width: 74.45px;
-        height: 38.73px;
+        left: 10px;
+        width: 85px;
+        height: 105px;
         align-content: center;
         font-weight: bolder;
-        font-size: 17.88x;
+        font-size: 24x;
     }
 }
 
