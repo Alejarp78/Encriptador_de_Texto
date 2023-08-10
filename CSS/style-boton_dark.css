@@ -448,7 +448,154 @@ body{
 }
 
 /* ********************----------------------------------------------******************** */
-@media screen and (min-device-width: 376.02px) and (max-device-width: 480px){
+
+@media screen and (min-device-width: 376.02px) and (max-device-width: 390px){
+    .container{
+        max-width: 291px;
+        height: 90px;
+        top: 30px;
+        left: 420px;
+        /* background-color: #02031b; */
+    }
+
+    .slider, .check {
+        width: 220px;
+        height: 26px;
+        align-content: center;
+        top: 0;
+        left: 70px; 
+        /* background-color: #02031b; */
+    }
+
+    .container .slider .rail-base{
+        top: 0;
+        width: 83.41px;
+        left: 62.56px;
+        height: 26px;
+        /* background: #0f2946; */
+    }
+    
+    .container .slider .rail-base_up{
+        top: 1.5px;
+        width: 79.245px;
+        left: 64.648px;    
+        height: 22.94px;
+    }
+
+    .container .check .rail_boton{
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 10px;
+        width: 177.26px;
+        height: 26.81px;
+        align-content: center;
+        /* background: coral; */
+    }
+    
+    .container .check .rail_boton #check_input1{
+        width: 10.43px;
+        height: 10.43px;
+        left: 0;
+    }
+
+    /* Este es el codigo del boton deslizante */
+    .container .check .rail_boton .circle-dark_left, .circle-dark_left_new{
+        margin: 0;
+        padding: 0;
+        top: 2.4px;
+        left: 56px;
+        width: 25.03px;
+        height: 22.94px;
+        /* background: deeppink; */
+    }
+
+    .container .check .rail_boton .circle-dark_left_newDark{
+        top: 2.4px;
+        left: 86px;
+        width: 25.03px;
+        height: 22.94px;
+    }
+
+    .container .check .rail_boton .circle-dark_right, .circle-dark_right_new{
+        top: 2.4px;
+        left: 77.5px;
+        width: 25.03px;
+        height: 22.94px;
+    }
+    
+    .container .check .rail_boton .circle-dark_right_newDark{
+        top: 2.4px;
+        left: 107.5px;
+        width: 25.03px;
+        height: 22.94px;
+    }
+
+    .indicate_sun, .indicate_moon{
+        height: 27.11px;
+        margin-top: 3.12px;
+        font-size: 20.85px;
+    }
+    
+    .container .check .rail_boton .indicate_moon{
+        height: 27.11px;
+        left: 15px;
+    }
+    
+    .container .check .rail_boton .indicate_moon_new{
+        height: 27.11px;
+        left: 15px;
+    }
+    
+    .container .check .rail_boton .indicate_sun{
+        left: 145px;
+        width: 14.60px;
+    }
+    
+    
+    .container .check .rail_boton .indicate_sun_new{
+        left: 145px;
+        width: 14.60px;
+    }
+    
+    .fa-solid{
+        margin: 0;
+        padding: 0;
+        height: 26.81px;
+        font-size: 23.5px;
+        margin-left: 12px;
+        top: 0;
+        /* background: #0c223b; */
+    }
+
+    .container .check .rail_boton #check_input1:checked ~ *.circle-dark_left{
+        transform: translate(31px, 0%);
+    }
+    .container .check .rail_boton #check_input1:checked ~ *.circle-dark_right{
+        transform: translate(31px, 0%);
+    }
+    
+    .container .check .rail_boton #check_input1:checked ~ *.circle-dark_left_newDark{
+        transform: translate(-31px, 0%);
+    }
+    .container .check .rail_boton #check_input1:checked ~ *.circle-dark_right_newDark{
+        transform: translate(-31px, 0%);
+    }
+
+    .container p{
+        position: absolute;
+        top: 0;
+        left: 10px;
+        width: 85px;
+        height: 105px;
+        align-content: center;
+        font-weight: bolder;
+        font-size: 24x;
+    }    
+}
+
+/* ********************----------------------------------------------******************** */
+@media screen and (min-device-width: 390.02px) and (max-device-width: 480px){
     .container{
         max-width: 291px;
         height: 90px;
