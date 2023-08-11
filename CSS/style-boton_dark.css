@@ -457,7 +457,7 @@ body{
         max-width: 100%;
         height: 90px;
         top: 30px;
-        left: calc(100% - 331px);
+        left: calc(100% - 321px);
         /* background-color: #02031b; */
     }
 
@@ -588,12 +588,12 @@ body{
     .container p{
         position: absolute;
         top: 0;
-        left: 10px;
+        left: 40px;
         width: 85px;
         height: 105px;
         align-content: center;
         font-weight: bolder;
-        font-size: 24x;
+        font-size: 3.5vmin;
     }
    
 }
