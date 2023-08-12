@@ -24,6 +24,7 @@ Hola, soy Jhozmer Ramírez! 👋, les presento el desafío 1 propuesto por Alura
 * [Habilidades en este proyecto](#Habilidades-en-este-proyecto)
 * [Título del Proyecto](#Título-del-Proyecto)
 * [Descripción](#Descripción)
+* [Vídeo](#Vídeo)
 * [Pre-requisitos](#Pre-requisitos)
 * [Construido con](#Construido-con)
 * [Colaboradores](#Colaboradores)
@@ -58,6 +59,10 @@ para proceder a desencriptar, lo que permitirá devolver el texto al código ori
 
 </span>
 
+## Vídeo
+
+https://github.com/Alejarp78/Alejarp78.github.io/assets/88687677/53f319f5-acb3-4129-abfa-47c463a6def4
+
 ## Pre-requisitos
 
 _Por los momentos posee estilos compatible en su mayor parte sólo con el navegador Chrome.
@@ -81,12 +86,12 @@ Versión Final 2.1.
 
 El encriptador de texto posee la identificación de letras no autorizadas como vocales acentuadas y en mayúsculas, además de identificar cononsonantes en mayúsculas. Posee un botón para activar y desactivar el modo oscuro, función muy utilizada hoy día sobre todo en los smartphones.
 
-# Alejarp78.github.io
+Alejarp78.github.io
 ## Haga click en el Link para ver la página web
 
 <em>Mi repositorio Personal en Github Pages</em>
 <p>Este es el link de mi proyecto Encriptador de Texto en Github Pages: "Alejarp78.github.io"</p>
-<span>Haga Click en: <a href="https://alejarp78.github.io/"><u>Encriptador de Texto</u></a></span>
+<span>Haga "Click" sobre el nombre del Proyecto para abrir: <a href="https://alejarp78.github.io/"><u>Encriptador de Texto</u></a></span>
 
 ## Autor
 - | [Jhozmer Ramírez (@Alejarp78)] |
@@ -102,4 +107,3 @@ El encriptador de texto posee la identificación de letras no autorizadas como v
 <span> Copyright © 2023 [Alejarp78](https://https://github.com/Alejarp78) </span>
 <p>Página generada el 09 de agosto del 2023 por Jhozmer A. Ramírez P. Versión 1.1, Mérida-Venezuela.</p>
  
-
