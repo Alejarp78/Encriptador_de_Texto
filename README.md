@@ -93,7 +93,7 @@ Alejarp78.github.io
 <p>Este es el link de mi proyecto Encriptador de Texto en Github Pages: "Alejarp78.github.io"</p>
 <span>Haga "Click" sobre el nombre del Proyecto para abrir: <a href="https://alejarp78.github.io/"><u>Encriptador de Texto</u></a></span>
 
-##Insignias
+## Insignias
 
 <h1 align="center"><img src="https://github.com/Alejarp78/Encriptador_de_Texto/assets/88687677/82741011-5930-4bd8-88bc-571d7cad5da4" alt="Canuto_Desarrollo_Web" width="220px" height="220px" align="center" border="2px solid blue">
 
